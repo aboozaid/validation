@@ -244,7 +244,7 @@ var (
 	// Subdomain regex source: https://stackoverflow.com/a/7933253
 	reSubdomain = regexp.MustCompile(`^[A-Za-z0-9](?:[A-Za-z0-9\-]{0,61}[A-Za-z0-9])?$`)
 	// E164 regex source: https://stackoverflow.com/a/23299989
-	reE164 = regexp.MustCompile(`^\+?[1-9]\d{1,14}$`)
+	reE164 = regexp.MustCompile(`^\+[1-9]\d{1,14}$`)
 	// Domain regex source: https://stackoverflow.com/a/7933253
 	// Slightly modified: Removed 255 max length validation since Go regex does not
 	// support lookarounds. More info: https://stackoverflow.com/a/38935027
