@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/invopop/validation"
+	"github.com/aboozaid/validation"
 	"github.com/stretchr/testify/assert"
 )
 

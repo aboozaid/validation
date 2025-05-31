@@ -1,10 +1,10 @@
 # Go Validation
 
-[![Lint](https://github.com/invopop/validation/actions/workflows/lint.yaml/badge.svg)](https://github.com/invopop/validation/actions/workflows/lint.yaml)
-[![Test Go](https://github.com/invopop/validation/actions/workflows/test.yaml/badge.svg)](https://github.com/invopop/validation/actions/workflows/test.yaml)
-[![GoDoc](https://godoc.org/github.com/invopop/validation?status.png)](http://godoc.org/github.com/invopop/validation)
+[![Lint](https://github.com/aboozaid/validation/actions/workflows/lint.yaml/badge.svg)](https://github.com/aboozaid/validation/actions/workflows/lint.yaml)
+[![Test Go](https://github.com/aboozaid/validation/actions/workflows/test.yaml/badge.svg)](https://github.com/aboozaid/validation/actions/workflows/test.yaml)
+[![GoDoc](https://godoc.org/github.com/aboozaid/validation?status.png)](http://godoc.org/github.com/aboozaid/validation)
 [![Coverage Status](https://codecov.io/gh/invopop/validation/graph/badge.svg?token=Q3AEO8GZ8G)](https://codecov.io/gh/invopop/validation)
-[![Go Report](https://goreportcard.com/badge/github.com/invopop/validation)](https://goreportcard.com/report/github.com/invopop/validation)
+[![Go Report](https://goreportcard.com/badge/github.com/aboozaid/validation)](https://goreportcard.com/report/github.com/aboozaid/validation)
 ![Latest Tag](https://img.shields.io/github/v/tag/invopop/validation)
 
 NOTE: This is a fork of the well known [ozzo-validation](https://github.com/go-ozzo/ozzo-validation) package which as of Feb 2023 doesn't appear to be under active maintenance for more than 2 years. At [Invopop](https://invopop.com) we use this library extensively, so it only felt appropriate to be more pro-active. We'll do out best to respond to issues and review or merge any pull requests.
@@ -43,7 +43,7 @@ or `validation.ValidateStruct()` to validate the value.
 Run the following command to install the package:
 
 ```
-go get github.com/invopop/validation
+go get github.com/aboozaid/validation
 ```
 
 ### Validating a Simple Value
@@ -56,8 +56,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/invopop/validation"
-	"github.com/invopop/validation/is"
+	"github.com/aboozaid/validation"
+	"github.com/aboozaid/validation/is"
 )
 
 func main() {

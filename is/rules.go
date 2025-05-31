@@ -9,8 +9,8 @@ import (
 	"regexp"
 	"unicode"
 
+	"github.com/aboozaid/validation"
 	"github.com/asaskevich/govalidator"
-	"github.com/invopop/validation"
 )
 
 var (

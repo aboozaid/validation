@@ -1,4 +1,4 @@
-module github.com/invopop/validation
+module github.com/aboozaid/validation
 
 go 1.20
 
